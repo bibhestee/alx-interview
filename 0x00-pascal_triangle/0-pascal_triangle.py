@@ -3,12 +3,7 @@
 def pascal_triangle(n):
     """
         pascal_triangle : function that returns a pascal triangle
-
-        Args:
-            n (int) : number of rows
-        Return:
-            list of pascal coefficients by row
-    """
+   """
     pascal_list = []
     if n <= 0:
         return pascal_list
