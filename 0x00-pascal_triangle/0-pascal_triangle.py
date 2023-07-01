@@ -11,7 +11,7 @@ def pascal_triangle(n):
         coeff = 1
         row = []
         for j in range(1, i + 1):
-            row.append(str(coeff))
+            row.append(coeff)
             coeff = coeff * (i - j) // j
         pascal_list.append(row)
     return pascal_list
