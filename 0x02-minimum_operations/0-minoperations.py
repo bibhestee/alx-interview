@@ -13,7 +13,7 @@ def minOperations(n):
         Arguments:
             n ( Integer )
         Returns:
-            Integers
+            Integer
     """
     num_of_operations = 0
     clipboard = 0
@@ -30,6 +30,13 @@ def minOperations(n):
 
 
 def largestFactor(n):
+    """
+        Function_Name - largestFactor
+        Arguments:
+            n ( Integer)
+        Returns:
+            Integer
+    """
     factor = 1
     for i in range(1, n):
         if (n % i == 0):
